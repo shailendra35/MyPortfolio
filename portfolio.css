@@ -1,0 +1,112 @@
+/* ─── Variables ─── */
+:root {
+    --color-accent: rgb(172, 72, 25);
+    --color-dark: #333333;
+    --color-bg: rgb(226, 211, 188);
+    --font-main: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* ─── Base ─── */
+body {
+    background-color: var(--color-bg);
+    margin: 0;
+    font-family: var(--font-main);
+}
+
+/* ─── Nav ─── */
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 12px;
+    overflow: hidden;
+    background-color: var(--color-dark);
+}
+
+.nav-bar ul li {
+    float: right;
+}
+
+
+.nav-bar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+    padding: 14px 40px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav-bar ul li a:hover {
+    background-color: var(--color-accent);
+}
+
+.icon {
+    height: 50px;
+    margin-left: 10px;
+    float: left;
+}
+
+.iconp {
+    height: 100%;
+    border-radius: 50%;
+    float: left;
+}
+
+/* ─── Hero ─── */
+.image-container {
+    margin-top: 80px;
+}
+
+.photo {
+    height: 500px;
+    width: auto;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid var(--color-accent);
+    box-shadow: 0 0 15px rgba(172, 72, 25, 0.4);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.photo:hover {
+    border-color: var(--color-dark);
+    box-shadow: 0 0 25px rgba(51, 51, 51, 0.6);
+    transform: scale(1.04);
+}
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+    color: var(--color-accent);
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.center-btn {
+    display: block;
+    margin: auto;
+}
+
+.social-icons a {
+    padding-left: 17%;
+    font-size: 25px; /* Adjust icon size */
+    margin:0 20px; /* Add spacing between icons */
+    color: #333; /* Default icon color */
+    text-decoration: none; /* Remove default link underline */
+    
+    
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Color change on hover */
+    transform: scale(2.04);
+}
