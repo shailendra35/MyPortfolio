@@ -52,7 +52,13 @@ body {
     border-radius: 50%;
     float: left;
 }
-
+.nav-title
+{
+    color: white;
+    font-size: 24px;
+    margin-left: 10px;
+    float: left;
+}
 /* ─── Hero ─── */
 .image-container {
     margin-top: 80px;
