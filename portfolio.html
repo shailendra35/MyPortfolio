@@ -12,18 +12,17 @@
 <body>
     <nav class="nav-bar">
         <ul>
-            
+            <div>
+                <img class="iconp" src="images/logo.jpg" alt="Logo">
+                <p class="nav-title">Shailendra Karki</p>
+            </div>
             <li><a href="project.html" target="_blank">My Projects</a></li>
             <li><a href="#media">Media</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact Me</a></li>
         </ul>
-        <p class="nav-title">Shailendra Karki</p>
+        
     </nav>
-
-
-    
-
     <main>
         <div class="image-container">
             <img class="photo" src="images/main.jpg" alt="Shailendra Karki">
@@ -33,49 +32,197 @@
 
         <p>Hi there! I'm a front-end developer with a passion for bringing pixels to life.<br>Here, you can check out what I am working on, trying my best to create things with heart.</p>
 
-        <button class="center-btn">Click to Explore</button>
+        <a href="https://linkedin.com/in/shailendra35" target="_blank" class="center-btn">Click to Explore</a>
+
     </main>
     <div class="page" id="projects">
         <h2>My Projects</h2>
-        <p>Project contents</p>
+        <div class="projects-container">
+            <!-- Project Tile 1 -->
+            <div class="project-tile">
+                <img class="project-image" src="images/project1.jpg" alt="Project 1">
+                <div class="project-content">
+                    <h3 class="project-title">Project One</h3>
+                    <p class="project-description">A brief description of your first project goes here. Highlight the key features and technologies used.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">HTML</span>
+                        <span class="project-tag">CSS</span>
+                        <span class="project-tag">JavaScript</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+            <!-- Project Tile 2 -->
+            <div class="project-tile">
+                <img class="project-image" src="images/project2.jpg" alt="Project 2">
+                <div class="project-content">
+                    <h3 class="project-title">Project Two</h3>
+                    <p class="project-description">Description of your second project. Explain what problem it solves and what makes it special.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">React</span>
+                        <span class="project-tag">CSS</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+            <!-- Project Tile 3 -->
+            <div class="project-tile">
+                <img class="project-image" src="images/project3.jpg" alt="Project 3">
+                <div class="project-content">
+                    <h3 class="project-title">Project Three</h3>
+                    <p class="project-description">Your third project description. Share the impact and what you learned building it.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">JavaScript</span>
+                        <span class="project-tag">API</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+            <!-- Project Tile 4 -->
+            <div class="project-tile">
+                <img class="project-image" src="images/project4.jpg" alt="Project 4">
+                <div class="project-content">
+                    <h3 class="project-title">Project Four</h3>
+                    <p class="project-description">Another great project showcasing your skills and creativity in web development.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">UI Design</span>
+                        <span class="project-tag">Frontend</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+            </div>
+        </div>
+        <div class="view-all">
+            <a href="project.html" target="_blank">View All Projects →</a>
+        </div>
     </div>
     <div class="page" id="media">
         <h2>Media</h2>
         <p>Media contents</p>
     </div>
+
+    <!--- Skills Section -->
+
     <div class="page" id="skills">
         <h2>My Skills</h2>
-        <p>Skills content</p>
+        <div class="skills-container" >
+            <div class="skill-card">
+                <!-- skill tile 1-->
+                <h3 class="skill-name">HTML</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <!-- skill tile 2-->
+                <h3 class="skill-name">CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 60%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <!-- skill tile 3-->
+                <h3 class="skill-name">JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 20%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <!-- skill tile 4-->
+                <h3 class="skill-name">React</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 0%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <!-- skill tile 5-->
+                <h3 class="skill-name">UI/UX Design</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 50%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="view-all">
+            <a href="skills.html" target="_blank">View All Skills →</a>
+        </div>
     </div>
-    <div class="" id="contact">
+
+    <div id="contact">
         <h2>Contact Me</h2>
-        <div class="social-icons">
-        <!-- Facebook link -->
-        <a href="linkedin.com/Shailendra35" target="_blank" title="Follow us on linkedin">
-            <i class="fa fa-linkedin"></i>
-        </a>
+        <div class="contact-container">
+            <!-- Contact Info Section -->
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <span class="contact-label">Email</span>
+                        <span class="contact-value"><a href="mailto:shailendra@example.com">335.shailendra@gmail.com</a></span>
+                    </div>
+                </div>
 
-        <!-- Twitter link -->
-        <a href="https://twitter.com/dooku420" target="_blank" title="Follow us on Twitter">
-            <i class="fa fa-twitter"></i>
-        </a>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <span class="contact-label">Phone</span>
+                        <span class="contact-value"><a href="tel:+1234567890">+977 9861290648</a></span>
+                    </div>
+                </div>
 
-        <!-- Instagram link -->
-        <a href="https://www.instagram.com/dooku420" target="_blank" title="Follow us on Instagram">
-            <i class="fa fa-instagram"></i>
-        </a>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa fa-map-marker"></i>
+                    </div>
+                    <div class="contact-details">
+                        <span class="contact-label">Location</span>
+                        <span class="contact-value">Suryabinayak-11, Bhaktapur</span>
+                    </div>
+                </div>
+            </div>
 
-        <!-- YouTube link -->
-        <a href="https://www.youtube.com/dooku69420
-        " target="_blank" title="Subscribe to our YouTube channel">
-            <i class="fa fa-youtube"></i>
-        </a>
-    </div>
-       
-
+            <!-- Social Icons Section -->
+            <div class="social-section">
+                <h3 class="social-heading">Follow Me</h3>
+                <div class="social-icons-grid">
+                    <div class="social-icon-box">
+                        <a href="https://linkedin.com/in/shailendra35" target="_blank" title="Connect on LinkedIn">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="social-icon-box">
+                        <a href="https://twitter.com/dooku420" target="_blank" title="Follow on Twitter">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="social-icon-box">
+                        <a href="https://www.instagram.com/dooku420" target="_blank" title="Follow on Instagram">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="social-icon-box">
+                        <a href="https://www.youtube.com/user/dooku69420" target="_blank" title="Subscribe on YouTube">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                    </div>
+                    <div class="social-icon-box">
+                        <a href="https://github.com/dooku420" target="_blank" title="Follow on GitHub">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <a href="mailto:shailendra@example.com" class="cta-button">Get In Touch</a>
+            </div>
+        </div>
     </div>
     <footer>
-    <p>© 2026 Shailendra. All Rights Reserved.</p>
+        <p>© 2026 Shailendra. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
