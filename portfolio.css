@@ -26,6 +26,10 @@ body {
     float: right;
 }
 
+.nav-bar ul li :hover {
+    transform: scale(1.24);
+}
+
 
 .nav-bar ul li a {
     display: block;
@@ -38,7 +42,8 @@ body {
 }
 
 .nav-bar ul li a:hover {
-    background-color: var(--color-accent);
+    transform: scale(1.24);
+    transition: color 0.3s ease;
 }
 
 .icon {
